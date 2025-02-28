@@ -15,6 +15,6 @@ int main(){
         else
             ngay = 28;
     }
-    printf("Thang %d nam %d co %d ngay", thang, nam, ngay);
+    printf("Thang %d nam %d co %d ngay\n", thang, nam, ngay);
     return 0;
 }

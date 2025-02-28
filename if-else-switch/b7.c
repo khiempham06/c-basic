@@ -6,13 +6,15 @@ int main() {
    scanf("%f", &n);
 
    if(n < 5)
-       printf("Yeu");
+       printf("Yeu\n");
    else if(n >= 5 && n < 7)
-       printf("TB");
+       printf("TB\n");
    else if(n >= 7 && n < 8)
-       printf("Kha");
+       printf("Kha\n");
    else if(n >= 8 && n < 9)
-       printf("Gioi");
+       printf("Gioi\n");
    else
-       printf("Xuat xac");
+       printf("Xuat xac\n");
+
+   return 0;
 }

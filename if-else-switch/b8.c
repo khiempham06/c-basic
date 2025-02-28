@@ -34,7 +34,7 @@ int main(){
 			printf("tam giac thuong\n");
 		}
 
-        printf("Dien tich: %lf\nChu vi: %lf", s, cv);
+        printf("Dien tich: %lf\nChu vi: %lf\n", s, cv);
 	} 
     else {
         printf("Khong phai tam giac!\n");
