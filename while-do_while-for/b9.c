@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+long long gt(int n) {
+    long long s = 1;
+    for(int i = 1; i <= n; i++) 
+        s *= i;
+    
+    return s;
+}
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    double s = 0;
+    for(int i = 1; i <= n; i++) 
+        s += (1.0 / gt(i));
+    
+    printf("%lf", s);
+    
+    return 0;
+}
