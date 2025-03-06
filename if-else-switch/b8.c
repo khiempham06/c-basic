@@ -10,7 +10,10 @@ bool cmp(double a, double b)
 
 int main(){
     double a, b, c;
-	scanf("%lf%lf%lf", &a, &b, &c);
+	printf("Nhap canh a: "); scanf("%lf", &a);
+    printf("Nhap canh b: "); scanf("%lf", &b);
+    printf("Nhap canh c: "); scanf("%lf", &c);
+
 	if(a > 0 && b > 0 && c > 0 && a + b > c && a + c > b && b + c > a) {
         double cv = a + b + c;
         double ncv = cv / 2;

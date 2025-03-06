@@ -3,7 +3,7 @@
 
 int main() {
    float n;
-   scanf("%f", &n);
+   printf("Nhap diem: "); scanf("%f", &n);
 
    if(n < 5)
        printf("Yeu\n");

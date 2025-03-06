@@ -10,8 +10,9 @@ double poww(double n, int m) {
 
 int main() {
     double s, g;
-    scanf("%lf%lf", &s, &g);
-
+    printf("Nhap GDP nam 2014: "); scanf("%lf", &s);
+    printf("Nhap tang truong binh quan: "); scanf("%lf", &g);
+    
     double tmp;
     int res = 0;
 

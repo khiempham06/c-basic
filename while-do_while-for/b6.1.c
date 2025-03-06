@@ -2,7 +2,8 @@
 
 int main() {
     int a, b;
-    scanf("%d%d", &a, &b);
+    printf("Nhap a: "); scanf("%d", &a);
+    printf("Nhap b: "); scanf("%d", &b);
 
     int gcd = (a < b) ? a : b;
     while(gcd > 0)

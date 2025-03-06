@@ -3,7 +3,8 @@
 
 int main(){
     int nam, thang, ngay = 0;
-    scanf("%d%d", &nam, &thang);
+    printf("Nhap nam: "); scanf("%d", &nam);
+    printf("Nhap thang: "); scanf("%d", &thang);
 
     if (thang == 1 || thang == 3 || thang == 5 || thang == 7 || thang == 8 || thang == 10 || thang == 12) 
         ngay = 31;

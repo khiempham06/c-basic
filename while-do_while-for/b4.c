@@ -7,7 +7,7 @@ int main() {
         if(i % 2 != 0) 
             s += i;
     }
-    printf("%ld", s);
+    printf("Tong le 1-100 la: %lld", s);
 
     return 0;
 }

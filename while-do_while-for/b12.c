@@ -21,7 +21,8 @@ double poww(double n, int m) {
 
 int main() {
     double n, eps;
-    scanf("%lf%lf", &n, &eps);
+    printf("Nhap n: "); scanf("%lf", &n);
+    printf("Nhap eps: "); scanf("%lf", &eps);
 
     n = n * PI / 180.0;
 
@@ -38,7 +39,7 @@ int main() {
         res += 2;
     } while (fabs(tmp) > eps);
     
-    printf("%lf", s);
+    printf("Sin(%lf) la: %lf", n, s);
 
     return 0;
 }

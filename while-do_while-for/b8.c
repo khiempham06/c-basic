@@ -2,13 +2,13 @@
 
 int main() {
     int n;
-    scanf("%d", &n);
+    printf("Nhap n: "); scanf("%d", &n);
 
     long long s = 1;
     for(int i = 1; i <= n; i++) 
         s *= i;
     
-    printf("%ld", s);
+    printf("Giai thua la: %ld", s);
     
     return 0;
 }

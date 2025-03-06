@@ -16,7 +16,7 @@ const char* cs(int n, int _cs, char *tmp) {
 
 int main() {
     int n;
-    scanf("%d", &n);
+    printf("Nhap n: "); scanf("%d", &n);
 
     char bin[32], oct[32], hex[32];
     printf("Co so 2: %s\nCo so 8: %s\nCo so 16: %s\n", cs(n, 2, bin), cs(n, 8, oct), cs(n, 16, hex));

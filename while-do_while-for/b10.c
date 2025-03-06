@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    scanf("%d", &n);
+    printf("Nhap n: "); scanf("%d", &n);
 
     long long f1 = 1, f2 = 1, fn = 1;
     for(int i = 3; i <= n; i++) {
@@ -11,6 +11,6 @@ int main() {
         f1 = fn;
     }
 
-    printf("%ld", fn);
+    printf("fibonacci thu %d la: %ld", n, fn);
     return 0;
 }

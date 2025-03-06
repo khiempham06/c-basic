@@ -4,7 +4,12 @@
 int main() {
     // cramer
     float a, b, c, d, e, f;
-    scanf("%f%f%f%f%f%f", &a, &b, &c, &d, &e, &f);
+    printf("Nhap a: "); scanf("%f", &a);
+    printf("Nhap b: "); scanf("%f", &b);
+    printf("Nhap c: "); scanf("%f", &c);
+    printf("Nhap d: "); scanf("%f", &d);
+    printf("Nhap e: "); scanf("%f", &e);
+    printf("Nhap f: "); scanf("%f", &f);
 
     float D = a * e - d * b, D1 = c * e - f * b, D2 = a * f - d * c;
     if(D == 0) {

@@ -4,8 +4,9 @@
 
 int main() {
     double r;
-    scanf("%lf", &r);
+    printf("Nhap ban kinh: "); scanf("%lf", &r);
+
     printf("Dien tich: %lf\n", 4 * PI * r * r);
-    printf("The tich: %lf\n", (4 / 3) * PI * r * r * r);
+    printf("The tich: %lf\n", (4 / 3.0) * PI * r * r * r);
     return 0;
 }

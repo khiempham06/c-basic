@@ -3,7 +3,7 @@
 
 int main() {
     int n;
-    scanf("%d", &n);
+    printf("Nhap so n: "); scanf("%d", &n);
 
     int fl = 1;
     if(n < 2)

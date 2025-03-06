@@ -3,7 +3,9 @@
 
 int main() {
     float a, b, c;
-    scanf("%f%f%f", &a, &b, &c);
+    printf("Nhap a: "); scanf("%f", &a);
+    printf("Nhap b: "); scanf("%f", &b);
+    printf("Nhap c: "); scanf("%f", &c);
 
     if(a == 0) {
         printf("Vui long nhap pt bac 2\n");

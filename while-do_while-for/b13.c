@@ -20,8 +20,9 @@ double poww(double n, int m) {
 int main() {
     int n; 
     double eps;
-    scanf("%d%lf", &n, &eps);
-
+    printf("Nhap n: "); scanf("%d", &n);
+    printf("Nhap eps: "); scanf("%lf", &eps);
+    
     double s = 1, tmp;
     int res = 1;
     do

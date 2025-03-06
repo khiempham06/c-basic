@@ -10,9 +10,10 @@ double poww(double n, int m) {
 
 int main() {
     long long a, n;
-    scanf("%ld%ld", &a, &n);
+    printf("Nhap so tien gui: "); scanf("%lld", &a);
+    printf("Nhap so thang gui: "); scanf("%lld", &n);
 
-    printf("%lf", a * poww((1 + (0.45 / 100)), n));
+    printf("So tien nhan duoc sau %d thang la %lf", n, a * poww((1 + (0.45 / 100)), n));
     
     return 0;
 }
